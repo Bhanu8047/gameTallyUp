@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally UP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tally UP</h1>
+        </div>
+        <div class="canvas">
+            <div id="leftpart" class="leftpart"></div>
+            <div id="rightpart" class="rightpart"></div>
+        </div>
+        <div class="user__controller">
+            <button id="btnLeft" class="btn left">&#60</button>
+            <button id="btnCenter" class="btn center">=</button>
+            <button id="btnRight" class="btn right">&#62</button>
+        </div>
+        <div class="controller">
+            <div class="timer">
+                <h4>timer :&nbsp;&nbsp;</h4>
+                <div class="timer__bar"  >
+                    <div id="timerBar">
+                    </div>
+                </div>
+                <div class="timerText">
+                    <span id="time">05:00</span>
+                </div>
+            </div>
+            <div class="counter">
+                <h4>stars : <span id="counter">0</span></h4>
+            </div>
+            <div class="next">
+                <button class="btn next--btn" id="next">next</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
